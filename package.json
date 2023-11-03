@@ -4,9 +4,14 @@
   "description": "Création d'un site internet pour l'entreprise Aliaf Telecom",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Rodolphe Tellier",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
